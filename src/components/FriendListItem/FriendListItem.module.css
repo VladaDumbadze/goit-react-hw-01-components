@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    1px 1px 1px 1px rgba(0, 0, 0, 0.14), 1px 1px 3px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.status {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: green;
+}
+.statusOff {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: red;
+}
+.name {
+  margin-left: 10px;
+}
